@@ -1,0 +1,281 @@
+body{
+    background-color: #4DA1FA;
+}
+.container{
+    padding: 0px !important;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 42px;
+
+    margin-top:48px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 224px;
+}
+nav{
+    margin-top: 14px;
+}
+
+nav ul{
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li {
+    font-family:Segoe UI ;
+    font-size:  20px;
+    height: 27px;
+    color: #0052AA;
+    letter-spacing: 0px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
+nav ul li:last-child{
+    padding-right: 0px;
+}
+#YLP{
+    color: #ffffff;
+}
+@media screen and (max-width: 850px){
+
+    .logo{
+        max-width: 180px;
+    }
+    .logo img{
+        width: 120px;
+    }
+
+    nav ul li {
+    font-family:Segoe UI ;
+    font-size:  14px;
+    height: 27px;
+    color:#0052AA;
+    letter-spacing: 0px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav ul li:last-child{
+    padding-right: 0px;
+}
+}
+
+@media screen and (max-width: 550px){
+    header{
+        height: 30px;
+        margin-top:20px;
+    }
+    .logo img{
+        width: 50px;
+    }
+
+    nav{
+        margin-top: 22px;
+    }
+
+    nav ul li {
+    font-family:Segoe UI ;
+    font-size:  8px;
+    height: 20px;
+    color:#0052AA;
+    letter-spacing: 0px;
+    padding-right: 4px;
+}
+nav ul li:last-child{
+    padding-right: 0px;
+}
+}
+
+.first-section{
+    text-align: center;
+    font: normal normal normal 50px/79px Nunito;
+    letter-spacing: 0px;
+    color: #E4E4E4;
+    margin-top: 60px;
+    letter-spacing: 0px;
+    opacity: 1;
+    align-items: center;
+}
+.sec-part{
+    color: #ffffff;
+
+}
+
+@media screen and (max-width: 400px){
+    .first-section{
+        font-size: 28px;
+    }
+}
+
+.second-section{
+    background: url('assests/map-animation-800x600-phone-005@2x.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    opacity: 0.55;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.yt-img{
+    background: #FC2222 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 10px #00000045;
+    opacity: 1;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 400px){
+    .second-section{
+        height: 300px;
+    }
+}
+
+.third-section{
+    background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #72BBFF;
+    border-radius: 35px;
+    opacity: 1;
+    padding: 120px;
+    text-align: center;
+}
+
+.margn{
+    margin-bottom: 60px;
+}
+
+.icon-p{
+    font: normal normal bold 22px Nunito;
+    letter-spacing: 1.3px;
+    color: #005AB2;
+    opacity: 1;
+}
+
+.color-ch{
+    color: #E4E4E4;
+}
+
+@media screen and (max-width: 400px){
+    .third-section{
+        padding: 50px;
+}}
+
+.line{
+    height: 4px;
+    background-color: #81BEFF;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.fourth-section{
+    background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #72BBFF;
+    border-radius: 35px;
+    opacity: 1;
+    padding: 50px;
+}
+
+.section-heading{
+    font: normal normal bold 20px/50px Nunito;
+    letter-spacing: 2px;
+    color: #000000;
+    opacity: 1;
+}
+
+.section-line{
+    background: #175392 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 2px;
+}
+
+.about-para{
+    font: normal normal normal 15px/30px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 5px;   
+}
+
+.from-end{
+    margin-top: 110px;
+}
+
+.para{
+    font: normal normal normal 25px/50px Nunito;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer{
+    background: #377DC8 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.footer-para{
+    font: normal normal normal 20px/40px Nunito;
+    letter-spacing: 1px;
+    color: #000000;
+    opacity: 1;
+}
+
+@media screen and (max-width: 400px){
+    .fourth-section{
+        background: transparent radial-gradient(closest-side at 50% 50%, #48A4F6 0%, #2F8AE4 100%) 0% 0% no-repeat padding-box;
+        border: 1px solid #72BBFF;
+        border-radius: 35px;
+        opacity: 1;
+        padding-top: 10px;
+        padding-bottom:10px ;
+        padding: right 0; left: 0;
+    }
+    
+    .section-heading{
+        font: normal normal bold 8px/15px Nunito;
+        letter-spacing: 1px;
+        color: #000000;
+        opacity: 1;
+    }
+    
+    .section-line{
+        background: #175392 0% 0% no-repeat padding-box;
+        opacity: 1;
+        height: 1px;
+    }
+
+    .section-image{
+        width: 50px;
+    }
+    
+    .about-para{
+        font: normal normal normal 10px/10px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        margin-top: 1px;   
+    }
+    
+    .from-end{
+        margin-top: 50px;
+    }
+    
+    .para{
+        font: normal normal normal 8px/20px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+}
